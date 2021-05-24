@@ -96,26 +96,72 @@ Section:
 Lower Container
 *************** */
 .lower-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.upper-box {
   background:hsl(228, 56%, 26%);
   border: none;
   border-radius: 10px;
-  padding: 20px 50px;
+  padding: 20px 20px;
   overflow: hidden;
   height: 155px;
-  position: relative;
+  color:hsl(243, 100%, 93%);
+  width: 300px;
+  text-align: center;
 }
 
-.white-box {
+.ub-span {
+  font-weight: 700;
+}
+
+.bar {
+  margin: 20px 0 10px 0;
+  width: 100%;
+  border-radius: 15px;
+  padding: 2px 2px;
+  background-color:hsl(229, 57%, 11%);
+}
+
+.progress {
+  background:linear-gradient(to right, rgba(245, 170, 170, 0.897), rgb(233, 118, 208));
+  border-radius: 15px;
+  text-align: right;
+  padding: 7px 7px;
+}
+
+.circle {
+  width: 80%;
+}
+
+.dot {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.bar-num {
+  display: flex;
+  font-size: 1.3em;
+  padding: 0 8px;
+  justify-content: space-between;
+}
+
+.lower-box {
   background: #fff;
   border: none;
   border-radius: 10px;
   font-size: 3em;
-  padding: 10px 10px;
+  padding: 10px 5px;
   font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 180px;
+  width: 170px;
+  margin-top: -30px;
 }
 
 .wb-span {
@@ -123,4 +169,5 @@ Lower Container
   color:hsl(229, 7%, 55%);
   text-transform: uppercase;
   margin-left: 10px;
+
 }
