@@ -171,3 +171,74 @@ Lower Container
   margin-left: 10px;
 
 }
+
+/* *************** 
+Media Query: 
+Desktop
+*************** */
+@media (min-width: 1440px) {
+  body {
+    background: url(images/bg-desktop.png);
+    background-color:hsl(229, 57%, 11%);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 50%;
+  }
+
+  .container {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  /* *************** 
+  Section:
+  Upper Container
+  *************** */
+  .upper-container {
+    border: none;
+    border-radius: 10px;
+    border-top-right-radius: 100px;
+    background:hsl(228, 56%, 26%);
+    height: 200px;
+    padding-left: 40px;
+    width: 350px;
+  }
+
+  /* *************** 
+  Section:
+  Lower Container
+  *************** */
+  .lower-container {
+    flex-direction: row;
+    align-items: flex-end;
+    height: 200px;
+  }
+
+  .upper-box {
+    padding: 50px 50px;
+    overflow: hidden;
+    height: 160px;
+    color:hsl(243, 100%, 93%);
+    width: 530px;
+    text-align: left;
+  }
+
+  .lower-box {
+    margin-bottom: 140px;
+    margin-left: -210px;
+    width: 170px;
+    position: relative;
+  }
+
+  .lower-box:after {
+    color: #fff;
+    content: "";
+    position: absolute;
+    /* bottom: -7px; */
+    right: 0;
+    border-style: solid;
+    display: block;
+    width: 0;
+  }
+
+}
