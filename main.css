@@ -3,3 +3,124 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  background: url(images/bg-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+/* *************** 
+Colors
+*************** */
+.pale-blue {
+  color: hsl(243, 100%, 93%);
+}
+
+.gray-blue {
+  color: hsl(229, 7%, 55%);
+}
+
+.dark-blue {
+  color: hsl(228, 56%, 26%);
+}
+
+.dark-blue2 {
+  color: hsl(229, 57%, 11%);
+}
+
+
+/* ********************** */
+/* *************** 
+Section
+*************** */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 300px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+/* *************** 
+Section:
+Upper Container
+*************** */
+.upper-container {
+  border: none;
+  border-radius: 10px;
+  border-top-right-radius: 100px;
+  background:hsl(228, 56%, 26%);
+  padding: 35px 0;
+  padding-left: 40px;
+  width: 100%;
+}
+
+.logo {
+  margin-bottom: 30px;
+}
+
+.icons {
+  width: 300px;
+}
+
+.icons img {
+  border: none;
+  border-radius: 10px;
+  background: hsl(229, 57%, 11%);
+  margin-right: 10px;
+}
+
+.doc-icon {
+  padding: 12px 14px;
+}
+
+.folder-icon {
+  padding: 14px 12px;
+}
+
+.cloud-icon {
+  padding: 16px 12px;
+}
+
+/* *************** 
+Section:
+Lower Container
+*************** */
+.lower-container {
+  background:hsl(228, 56%, 26%);
+  border: none;
+  border-radius: 10px;
+  padding: 20px 50px;
+  overflow: hidden;
+  height: 155px;
+  position: relative;
+}
+
+.white-box {
+  background: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 3em;
+  padding: 10px 10px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+}
+
+.wb-span {
+  font-size: 0.3em;
+  color:hsl(229, 7%, 55%);
+  text-transform: uppercase;
+  margin-left: 10px;
+}
